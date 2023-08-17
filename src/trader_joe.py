@@ -52,8 +52,8 @@ def trade_avax_to_btc(name, private_key, value, max_gas):
             gas = contractTRADERJOE.functions.swapExactNATIVEForTokens(
                 amountOutMin,
                 (
-                [0],
-                [0],
+                [10],
+                [2],
                 ['0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7','0x152b9d0FdC40C096757F570A51E494bd4b943E50']
                 ),
                 address,
@@ -73,8 +73,8 @@ def trade_avax_to_btc(name, private_key, value, max_gas):
         transaction = contractTRADERJOE.functions.swapExactNATIVEForTokens(
             amountOutMin,
             (
-            [0],
-            [0],
+            [10],
+            [2],
             ['0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7','0x152b9d0FdC40C096757F570A51E494bd4b943E50']
             ),
             address,

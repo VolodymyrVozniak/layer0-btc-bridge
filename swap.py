@@ -10,8 +10,8 @@ SLEEP_FROM = 100
 SLEEP_TO   = 200
 
 # All values in AVAX
-AMOUNT_FROM = 0.8
-AMOUNT_TO   = 0.8
+AMOUNT_FROM = 12.8
+AMOUNT_TO   = 13.4
 MAX_GAS     = 0.017  # ~0.2$ for Avalanche fees
 
 RANDOM_WALLETS = True  # Shuffle wallets

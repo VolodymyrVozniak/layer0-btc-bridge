@@ -71,7 +71,7 @@ def bridge_btc(name, private_key, from_chain, to_chain, max_bridge, max_gas, max
     if balance_of_token_BTC_from == 0:
         logger.error(f'{name} | {address} | {log_name} | No tokens') 
         return
-    logger.info(f'{name} | {address} | {log_name} | BRIDGE {amount} в {to_chain}')
+    logger.info(f'{name} | {address} | {log_name} | BRIDGE {amount} to {to_chain}')
 
     # APPROVE BTC
     try:
